@@ -99,7 +99,8 @@ def get_catalogs(repo):
 
 def get_manifest_pkg_sections():
     '''Returns a list of manifest sections that can contain pkg names'''
-    return ['managed_installs',
+    return ['featured_items',
+            'managed_installs',
             'managed_uninstalls',
             'managed_updates',
             'optional_installs']
